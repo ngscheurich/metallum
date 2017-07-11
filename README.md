@@ -6,7 +6,7 @@ All of the information presented by this application comes from
 [Encyclopaedia Metallum: The Metal Archives](https://www.metal-archives.com/).
 You should [support them](https://www.metal-archives.com/content/support).
 
-[![asciicast](https://asciinema.org/a/CyLBaWBvtWKdKQJLg0FoHfOuA.png)](https://asciinema.org/a/CyLBaWBvtWKdKQJLg0FoHfOuA)
+[![asciicast](https://asciinema.org/a/CyLBaWBvtWKdKQJLg0FoHfOuA.png)](https://asciinema.org/a/CyLBaWBvtWKdKQJLg0FoHfOuA?autoplay=true)
 
 ## Installation
 
