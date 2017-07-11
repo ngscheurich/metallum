@@ -1,4 +1,7 @@
 defmodule Metallum do
+  @moduledoc """
+  TODO Write moduledoc.
+  """
 
   alias Metallum.Encyclopaedia
 
@@ -46,7 +49,7 @@ defmodule Metallum do
     html
     |> Floki.find(".band_name a")
     |> Floki.text()
-    |> prepend("[💀 ] ")
+    |> prepend("💀  | ")
     |> String.upcase
   end
 
@@ -55,7 +58,7 @@ defmodule Metallum do
     |> Floki.find("#band_stats .float_right dd")
     |> List.first
     |> Floki.text()
-    |> prepend("[📖 ] ")
+    |> prepend("📖  | ")
   end
 
   defp url(html) do
@@ -63,7 +66,7 @@ defmodule Metallum do
     |> Floki.find(".band_name a")
     |> Floki.attribute("href")
     |> List.first
-    |> prepend("[🗝 ] ")
+    |> prepend("🗝  | ")
   end
 
   defp prepend(string, addition) do
